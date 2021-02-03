@@ -2,7 +2,13 @@ from rest_framework import serializers
 from rest_framework_jwt.settings import api_settings
 from django.contrib.auth.models import User
 from .models import *
+from django.db.models import Sum,F, Count
 
+class StocksTotalSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Stocks
+        fields = ('id', 'name','quantity' ,'price')
 
 class StocksSerializer(serializers.ModelSerializer):
 
