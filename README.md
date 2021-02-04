@@ -2,7 +2,7 @@
 
 Simple Stock trading built with Django REST framework
 
-Add cors_header, rest_framework module
+Add cors_header, rest_framework, djangorestframework-jwt module
 Additional JWT token authentication
 
 To get started: 
