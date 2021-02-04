@@ -13,8 +13,11 @@ create an account and use this command:
 python manage.py createsuperuser
 
 migrate stocks app:
+
 python manage.py makemigrations stocks
+
 python manage.py migrate
+
 then run the Django server
 
 To view the API Endpoint. login to Django Administration before go to the API endpoint.
