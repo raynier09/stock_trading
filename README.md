@@ -5,6 +5,13 @@ Simple Stock trading built with Django REST framework
 Add cors_header, rest_framework module
 Additional JWT token authentication
 
+To get started: 
+
+switch to revised branch.
+
+create an account and use this command:
+python manage.py createsuperuser
+
 To view the API Endpoint. login to Django Administration before go to the API endpoint.
 
 View the revise branch to check the completed task.
